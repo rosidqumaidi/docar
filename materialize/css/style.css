@@ -1,0 +1,140 @@
+/*Register*/
+.btn{
+	width: 610px;
+}
+.btn.daftar{
+	color: white;
+}
+.tanya{
+	font-size: 25px;
+}
+.card-panel.masuk{
+	margin-top:80px; 
+}
+/*Peutup Register*/
+
+
+
+
+
+
+/*Halaman Index*/
+
+/*slider*/
+.slider h3,
+.slider h5,
+.partner h3 {
+	text-shadow: 1px 1px 3px rgba(0,0,0,1);
+}
+.warna{
+	background: rgba(93, 84, 240, 0.5);
+	background: -webkit-linear-gradient(left, rgba(0.168, 255, 0.55), rgba(185, 0, 255, 0.55));
+}
+/*warna*/
+
+
+/*Mobil*/
+.booking .card{
+	height: 420px;
+}
+
+.card .card-action{
+	border-top: 0px !important;
+}
+.card .card-action .booking{
+	float: right;
+	padding-bottom: 50px !important; 
+}
+/*Penutup Mobil*/
+
+/* Team */
+.team{
+	margin: 200px auto 100px;
+	display: grid;
+	grid-template-columns: repeat( auto-fit, minmax(350px, 1fr));
+	grid-gap: 20px;
+}
+.team .card2{
+	position: relative;
+	width: 350px;
+	height: 400px;
+	margin: 0 auto;
+	background: #333;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center;
+	box-shadow: 0 10px 40px rgba(0, 0, 0.5);
+	overflow: hidden;
+}
+.team .card2 .layer{
+	position: absolute;
+	top: calc(100% - 3px);
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(#03a9f4, #e91ee3);
+	z-index: 1;
+	transition: 1s;
+}
+.team .card2:hover .layer{
+	top: 0;
+}
+.team .card2 .konten{
+	position: relative;
+	z-index: 2;
+}
+.team .card2 .konten p{
+	font-size: 18px;
+	line-height: 15px;
+	color: #fff;
+}
+.team .card2 .konten .image{
+	width: 280px;
+	height: 280px;
+	margin: 0 auto;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 3px solid #fff;
+	box-shadow: 0 10px 20px rgba(0, 0, 0.2);
+}
+.team .card2 .konten .details h2{
+	font-size: 18px;
+	color: #fff;
+}
+.team .card2 .konten .details h2 span{
+	color: #03a9f4;
+	font-size: 15px;
+	transition: 0.5s;
+}
+.team .card2:hover .konten .details h2 span{
+	color: #fff;
+}
+/* Penutup Team */
+
+ /*partner*/
+.parallax-container{
+	height: 20%;
+}
+.parallax img{
+	filter: grayscale(1); /* untuk membuat gambar jadi hitam putih */
+	opacity: 0.5 !important; /*important untuk memaksa menjalankan yg kita pilih dari pada framework*/
+}
+.partner img{
+	max-width: 130px;
+	filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8)); /*Memberi bayangan pada gambar transparan*/
+ 
+}
+/*Penutup Partner*/
+
+/*Service*/
+section, footer{
+	padding: 20px 0;
+}
+.service img{
+	max-width: 60px;
+}
+/* Penutup Service*/
+
+/*Penutup Halaman Index*/
+
+
